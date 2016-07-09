@@ -1,0 +1,88 @@
+﻿http://azure.microsoft.com/en-us/documentation/articles/mobile-services-dotnet-backend-android-get-started-push/ -
+https://github.com/Azure/azure-content/blob/master/articles/notification-hubs-android-get-started.md -
+http://dj-android.blogspot.de/2013/04/android-notifications-3-applying-big.html -
+http://www.google.de/imgres?imgurl=https://capdroid.files.wordpress.com/2012/07/device-2012-07-15-2220406.png&imgrefurl=https://capdroid.wordpress.com/tag/notification-bigtextstyle/&h=1280&w=800&tbnid=oUbIMWJNLSwnFM:&zoom=1&tbnh=90&tbnw=56&usg=__muAw3pAq6sNqJQEvBv670cE_cHQ=&docid=phd_qr5OtxjR6M
+
+http://azure.microsoft.com/en-us/documentation/articles/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push/
+
+facebook like
+https://developers.facebook.com/docs/sharing/android#share_dialog - https://developers.facebook.com/docs/sharing/best-practices
+http://blogs.msdn.com/b/thunbrynt/archive/2014/04/16/windows-phone-8-1-for-developers-contracts.aspx - see share picker on virtualacademy
+
+https://developers.google.com/mobile-ads-sdk/docs/admob/android/quick-start - https://developers.google.com/ads/#apps
+
+live tiles
+https://msdn.microsoft.com/library/windows/apps/hh761491.aspx/
+https://spasol.wordpress.com/2013/06/24/creating-custom-live-tiles-for-windows-phone/
+http://blogs.msdn.com/b/thunbrynt/archive/2014/04/10/windows-phone-8-1-for-developers-live-tiles.aspx
+
+-	ft share + web link -> wp8.1 jumpstart chp 10 (share source + file uri association)
+-	Tile 
+o	Push extended
+	http://blogs.msdn.com/b/azuremobile/archive/2014/04/08/push-notifications-using-notification-hub-and-net-backend.aspx
+	https://msdn.microsoft.com/en-us/library/windows/apps/xaml/jj709907.aspx - you can use raw notification AND background task (can be cancelled in OnPushNotification : see Instructions 3)
+o	Notification extensions -> https://msdn.microsoft.com/en-us/library/windows/apps/xaml/dn642158.aspx
+o	Toast -> https://msdn.microsoft.com/en-us/library/windows/apps/xaml/dn631259.aspx - wp8.1 jumpstart chp 14
+o	Tiles & badges -> https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh868260.aspx
+	See end of description for using notification queue (wns, push, …)
+o	Background Task -> wp8.1 jumpstart chp 11
+	https://msdn.microsoft.com/en-us/library/windows/apps/xaml/JJ651556(v=win.10).aspx
+----------------
+application update when using background tasks
+https://msdn.microsoft.com/en-us/library/windows/apps/xaml/hh977051.aspx
+
+check this
+WP
+-------
+-Microsoft PubCenter
+-AdDuplex
+-AdMob
+?-Inmobi
+X-Inneractive
+-MobFox
+-Smaato
+X-House Ads
+
+Android
+-------
+-mobfox
+-flurry
+?leadbolt
+-mopub
+-tapit by phunware
+?vserv
+
+1. android mediation
+https://developers.google.com/admob/android/banner#play-adlistener
+2. test on device
+	a. android
+	b. wp8
+	
+In-app purchase
+https://msdn.microsoft.com/en-us/library/windows/apps/hh694067.aspx
+ads
+http://adsinapps.microsoft.com/en-us/pubcenter
+http://help.bingads.microsoft.com/#apex/7/en/ext06012/-1/en
+http://help.bingads.microsoft.com/#apex/7/en/06013/0
+https://msdn.microsoft.com/en-us/library/windows/apps/xaml/dn792120.aspx
+ad mediation
+http://blogs.windows.com/buildingapps/2014/11/07/how-to-maximize-the-impact-of-windows-ad-mediation-for-windows-phone/
+http://getadrotator.com/windowsphone/
+http://pjdecarlo.com/2013/09/monetize-your-app-with-adrotator-for-windows-8-and-windows-phone.html
+https://www.inmobi.com/support/integration/23925038/22188957/windows-phone-8-sdk-integration-guide/
+
+https://developers.google.com/admob/android/quick-start
+
+1. http://developer.android.com/guide/topics/data/data-storage.html#pref 
+
+-. check azure service bus
+	-. send web -> mobile
+	https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-windows-store-dotnet-get-started/
+	https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-aspnet-backend-windows-dotnet-notify-users/
+	-. signalr - setup (connection string)
+	http://www.asp.net/signalr/overview/performance/scaleout-with-windows-azure-service-bus
+	-. broadcast web -> web
+	http://www.asp.net/signalr/overview/getting-started/tutorial-server-broadcast-with-signalr
+	!d. mobile to web
+	? register + event handler to handle notification from channel/hub ?
+

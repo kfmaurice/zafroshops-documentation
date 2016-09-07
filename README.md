@@ -9,4 +9,3 @@ To contribute to this project, first make sure you have signed an [individual CL
 4. Be sure that the build is not broken by it. If it is then kindly fix it :-)
 5. You will be notified when your changes are reviewed and merged with the master
 
-Feel free to edit this file too :-)
